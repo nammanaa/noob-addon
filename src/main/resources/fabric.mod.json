@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "noob-addon",
+  "version": "1.0.0",
+  "name": "Noob Addon",
+  "description": "SusChunkFinder + TridentCooldown",
+  "authors": ["AIwolfie"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.noob.addon.NoobAddon"]
+  },
+  "mixins": ["noob-addon.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  }
+}
